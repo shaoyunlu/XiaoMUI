@@ -1,0 +1,27 @@
+{
+  "name": "xiaomui",
+  "version": "1.0.0",
+  "description": "一套基于Web Components的前端UI框架",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaoyunlu/XiaoMUI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaoyunlu/XiaoMUI/issues"
+  },
+  "homepage": "https://github.com/shaoyunlu/XiaoMUI#readme",
+  "devDependencies": {
+    "rollup": "^3.4.0",
+    "rollup-plugin-html": "^0.2.1",
+    "rollup-plugin-import-css": "^3.1.0",
+    "rollup-plugin-less": "^1.1.3"
+  }
+}
